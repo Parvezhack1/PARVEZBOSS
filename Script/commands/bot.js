@@ -66,7 +66,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("‎[𝐎𝐖𝐍𝐄𝐑:☞ Parvezッ ☜\n𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 Parvez.\n𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝 :- https://www.facebook.com/profile.php?id=100080970786827\nতার সাতে যোগা যোগ করবেন WhatsApp :- +0175570***", threadID);
    };
 
-   if ((event.body.toLowerCase() == "Tor boss ke") || (event.body.toLowerCase() == "admin ke ")) {
+   if ((event.body.toLowerCase() == "Tor boss ke") || (event.body.toLowerCase() == "admin ke")) {
      return api.sendMessage("My Creator:PARVEZ CHOWDHURY হাই আমি মেছেন্জার ROBOT আামার বস পারভেজ আমাকে বানিয়েছেন আপনাদের কে হাসানোর জন্য আমি চাই আপনারা সব সময় হাসি খুশি থাকেন", threadID);
    };
 
@@ -107,7 +107,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("খবরদার কেউ এই নাম দরে ডাক দিবানা এটা আমার বস পারভেজ এর বউ এর নাম..!😠🥰⛏️", threadID);
    };
 
-  if ((event.body.toLowerCase() == "@Shawon 卝 বাবুツ࿐ ") || (event.body.toLowerCase() == "শাওন")) {
+  if ((event.body.toLowerCase() == "@Shawon 卝 বাবুツ࿐") || (event.body.toLowerCase() == "শাওন")) {
      return api.sendMessage("🥰-শাওন-🌺 আমার বস পারভেজ'র বন্ধু লাগে লুচ্ছি বেডি'রা দূরে থাক😠🥰⛏️", threadID);
    };
 
