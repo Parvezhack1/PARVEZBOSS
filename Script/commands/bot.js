@@ -56,7 +56,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("~ তোমার বাল উঠে নাই নাকি তোমার?? 🤖", threadID);
    };
 
-  if ((event.body.toLowerCase() == "Parvez") || (event.body.toLowerCase() == "Parvez vai") || (event.body.toLowerCase() == "@Parvez Chowdhury") || (event.body.toLowerCase() == "parvez")) {
+  if ((event.body.toLowerCase() == "Parvez") || (event.body.toLowerCase() == "Parvez vai") || (event.body.toLowerCase() == "@Parvez Chowdhury ") || (event.body.toLowerCase() == "parvez")) {
      return api.sendMessage("উনি এখন কাজে বিজি আছে কি বলবেন আমাকে বলতে পারেন..!😘",threadID);
 
        
@@ -91,7 +91,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("সরি বস মাফ করে দেন আর এমন ভুল হবে না🥺🙏", threadID);
    };
 
-   if ((event.body.toLowerCase()==" Prem") || (event.body.toLowerCase() == "প্রেম")) {
+   if ((event.body.toLowerCase()=="Prem") || (event.body.toLowerCase() == "প্রেম")) {
      return api.sendMessage("প্রেম চুদমারানী", threadID);
    };
 
@@ -107,7 +107,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("খবরদার কেউ এই নাম দরে ডাক দিবানা এটা আমার বস পারভেজ এর বউ এর নাম..!😠🥰⛏️", threadID);
    };
 
-  if ((event.body.toLowerCase() == "@Shawon 卝 বাবুツ࿐") || (event.body.toLowerCase() == "শাওন")) {
+  if ((event.body.toLowerCase() == "@Shawon 卝 বাবুツ࿐ ") || (event.body.toLowerCase() == "শাওন")) {
      return api.sendMessage("🥰-শাওন-🌺 আমার বস পারভেজ'র বন্ধু লাগে লুচ্ছি বেডি'রা দূরে থাক😠🥰⛏️", threadID);
    };
 
@@ -139,7 +139,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("️এন থেকে সর দুরে গিয়া মর😒", threadID);
    };
 
-   if ((event.body.toLowerCase() == "moriom") || (event.body.toLowerCase() == "ex")) {
+   if ((event.body.toLowerCase() == "Sadia") || (event.body.toLowerCase() == "ex")) {
      return api.sendMessage("️Kiss Randi Ka Name Le Ke Mood Khrab Kr Diya.🙄 Dubara Naam Mat Lena Iska", threadID);
    };
 
